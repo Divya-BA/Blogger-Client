@@ -11,7 +11,8 @@ export default function Login() {
   const userRef = useRef();
   const passwordRef = useRef();
   const { dispatch, isFetching } = useContext(Context);
-  const URL = `http://localhost:3000/api`;
+  // const URL = `http://localhost:3000/api`;
+  const URL=`https://blogger-ba.onrender.com/api`;
 
   const handleSubmit = async (e) => {
     e.preventDefault();

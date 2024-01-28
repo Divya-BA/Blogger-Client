@@ -9,7 +9,8 @@ import Spinner from "../../Components/spinner/Spinner";
 function ForgotPassword() {
   const [email, setEmail] = useState('');
   const [isLoading, setIsLoading] = useState(false);  
-  const URL = `http://localhost:3000/api`;
+  // const URL = `http://localhost:3000/api`;
+  const URL=`https://blogger-ba.onrender.com/api`;
 
   const handleForgotPassword = async (e) => {
     e.preventDefault();

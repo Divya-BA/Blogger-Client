@@ -14,8 +14,8 @@ export default function Write() {
   const [categories, setCategories] = useState([]);
   const [category, setCategory] = useState([]);
   const { user } = useContext(Context);
-  const URL = `http://localhost:3000/api`;
-
+  // const URL = `http://localhost:3000/api`;
+const URL=`https://blogger-ba.onrender.com/api`;
   React.useEffect(() => {
     async function getCat() {
       const res = await axios.get(`${URL}/category/`);

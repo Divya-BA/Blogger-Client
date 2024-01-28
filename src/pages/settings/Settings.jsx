@@ -12,7 +12,8 @@ export default function Settings() {
   const [email, setEmail] = useState("");
   const [profilePic, setProfilePic] = useState("");
   const [password, setPassword] = useState("");
-  const URL = `http://localhost:3000/api`;
+  // const URL = `http://localhost:3000/api`;
+  const URL=`https://blogger-ba.onrender.com/api`;
 
   const handleUpdate = async (e) => {
     e.preventDefault();

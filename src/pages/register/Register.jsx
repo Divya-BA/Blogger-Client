@@ -12,7 +12,8 @@ export default function Register() {
   const [password, setPassword] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);  // New state to track loading status
 
-  const URL = `http://localhost:3000/api`;
+  // const URL = `http://localhost:3000/api`;
+  const URL=`https://blogger-ba.onrender.com/api`;
 
   const handleSubmit = async (e) => {
     e.preventDefault();

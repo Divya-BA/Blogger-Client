@@ -22,7 +22,8 @@ export default function SinglePost() {
   const [tags, setTags] = useState([]);
   const [isLoading, setIsLoading] = useState(false);  
   const { user } = useContext(Context);
-  const URL = `http://localhost:3000/api`;
+  // const URL = `http://localhost:3000/api`;
+  const URL=`https://blogger-ba.onrender.com/api`;
 
   useEffect(() => {
     setIsLoading(true);  

@@ -11,7 +11,8 @@ function ResetPassword() {
   const [confirmPassword, setConfirmPassword] = useState('');
   const { randomString } = useParams();
   const navigate = useNavigate();
-  const URL = `http://localhost:3000/api`;
+  // const URL = `http://localhost:3000/api`;
+  const URL=`https://blogger-ba.onrender.com/api`;
 
   const handleResetPassword = async () => {
     try {

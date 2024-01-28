@@ -11,7 +11,8 @@ function VerifyRandomString() {
   const [verificationStatus, setVerificationStatus] = useState("Verifying...");
   const navigate = useNavigate();
   const { randomString } = useParams();
-  const URL=`http://localhost:3000`
+  // const URL=`http://localhost:3000`
+  const URL=`https://blogger-ba.onrender.com/api`;
 
   useEffect(() => {
     async function verifyRandomString() {
