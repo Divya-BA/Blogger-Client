@@ -1,0 +1,76 @@
+.register {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.registerTitle {
+  font-size: 30px;
+  text-align: center;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.registerForm > label {
+  margin: 10px 0;
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid black;
+  width: 17rem;
+  margin-top: 16px;
+}
+
+.registerInput:focus {
+  outline: none;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+.registerButton:hover{
+  background-color: green;
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.registerLogin {
+  color: grey;
+  text-decoration: none;
+}
+
+.page {
+  margin: 10px;
+  text-align: center;
+}

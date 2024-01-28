@@ -1,0 +1,13 @@
+.nf{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:#060602 ; */
+}
+
+.nf-txt{
+    font-size: 200px;
+    color: rgb(61, 61, 61);
+    letter-spacing: .2em;
+}

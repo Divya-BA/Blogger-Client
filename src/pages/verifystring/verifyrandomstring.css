@@ -1,0 +1,47 @@
+.verify-random-string-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.verify {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 25rem;
+
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.verifybutton {
+  margin: 20px auto; /* Set top and bottom margins to auto for centering */
+  cursor: pointer;
+  background-color: lightcoral;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  display: block; /* Ensure the button takes full width */
+}
+
+.verifybutton:hover {
+  background-color: #45a049;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Add more styles as needed */
+
+  .icon {
+    margin: auto;
+    cursor: pointer;
+    font-size: 7rem;
+    color: #45a049;
+    display: block; /* Ensure the icon takes full width */
+  }
+  
